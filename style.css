@@ -1,0 +1,233 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    background: #1690A7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilos generales */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 20px; /* Añadido margen superior */
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333; /* Color de texto para h2 */
+}
+
+form input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+form label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+form button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+form button:hover {
+    opacity: 0.7;
+}
+
+form .error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h2 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    opacity: 0.8;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1000px; /* Aumentado el ancho máximo */
+    margin: 100px auto 20px auto; /* Ajustado el margen superior e inferior */
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Contenedor para tablas (si es necesario) */
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para formularios */
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px; /* Añadir margen a la derecha */
+    margin-left: 10px; /* Añadido margen a la izquierda */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para mensajes de error y éxito */
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el pie de página (footer) */
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
